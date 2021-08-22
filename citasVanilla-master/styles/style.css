@@ -1,0 +1,87 @@
+html {
+    min-height: 50%;
+  }
+  .body {
+    margin: 10%;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(https://websystemperu.com/web/121728f/sistema-de-citas-medicas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50%;
+    padding-bottom: 5rem;
+    font-size: 13px;
+  }
+  
+  header {
+    margin-top: 3rem;
+  }
+  header h1 {
+    color: rgb(10, 10, 10);
+  }
+
+#inicioL{
+margin-top:-120px;
+ 
+  font-size: 20px;
+  font-weight:bold;
+  z-index: 1;
+}
+  #sura{
+    color: rgb(12, 12, 12);
+  }
+
+  .label{
+    color: rgb(2, 2, 2);
+  }
+  .body #busqueda{
+    color: black;
+    font-size: 17px;
+    background-color: rgb(6, 2, 17);
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top:20px;
+    display: none;
+  }
+  #registro{
+    width:90%;
+    align-items: center;
+    margin: -2rem auto;
+    background-color: rgba(14, 143, 94, 0.952);
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 2rem;
+    color:black;
+    font-size:1.2rem;
+    display:none;
+  }
+  .container{
+    align-items: center;
+    margin: 0 auto;
+   
+  }
+  #iniciar{
+    width:40%;
+    align-items: center;
+    margin: 7rem auto;
+    background-color: rgba(14, 143, 94, 0.973);
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 2rem;
+    color:black;
+    font-size:1.2rem;
+ 
+  }
+  #iniciar .form-check{
+   
+    margin: 0 auto;
+    
+  }
+  .botonr{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #registro .btn{
+    margin-left: 25rem;
+    margin-top: 1rem;
+  }

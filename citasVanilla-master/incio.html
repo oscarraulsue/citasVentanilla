@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Sura</title>
+</head>
+<body class = "body">
+    <!-- iniciar sesion -->
+    <div class="container">
+    <div class="incioSesion" id="iniciar">
+        <form id="formInicio">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ejemplo@ejemplo.com" required>
+              
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" required>
+            </div>
+            <div class="botonr">
+            <div class=" form-check">
+            <button type="submit" class="btn btn-primary" id = "btnInicio">Inicar Sesión</button>
+            </div>
+            <div class="form-check">
+                <button type="button" id="register"class="btn btn-primary">Registrar</button>
+              </div>
+            </div>
+        </form>
+
+    </div>
+    <!-- fin -->
+<!-- registro -->
+    <div class="registro" id="registro">
+        <form class="row g-3" id="formReg">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Correo Electronico</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="ejemplo@ejemplo.com" required>
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="inputPassword4" required>
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Dirección</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Calle 40 # 7 -23" required>
+            </div>
+            <div class="col-md-12">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity" required>
+            </div>
+            <div class="col-12">
+              <button type="submit" id="btnReg"class="btn btn-primary">Guardar</button>
+            </div>
+            <div class="form-check">
+              <button type="button" id="regresar"class="btn btn-primary">Volver</button>
+            </div>
+          </form>
+    </div>
+</div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="./scripts/scripts.js"></script>
+<script src="./scripts/inicio.js" type="module"></script>
+</body>
+</html>
